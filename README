@@ -1,0 +1,37 @@
+Hello, this is just a small README meant for Mr. Sides, it pertains info as to what each pages purpose is for help when updating the website!
+
+# ALL PAGES
+At the top of every page is an announcment bar, It simply says the next meeting date and time, as well as the place. When updating be sure the information here is accurate.
+
+Here is the code snippet that will need be to changed. It is on the 15-17th line of each file
+
+<div class="announce">
+  Next meeting: <strong>Weekday, Month Day Number at Time</strong> &nbsp;·&nbsp; Newburgh Kiwanis &nbsp;·&nbsp; Visitors always welcome
+</div>
+
+
+# Index.html
+This contains the about sections of the webpage. This includes not just the "About the Club" section but also the "What we do" section. The deep blue announcment card is also on this page. The "about" button on the top navigation bar leads here.
+
+# Meetings
+This contains the information on meetings. This is just the section with the date cards. Each card is structured as such:
+
+<div class="event">
+        <div class="event-date">
+          <div class="month">May</div>
+          <div class="day">19</div>
+          <div class="year">2026</div>
+        </div>
+        <div class="event-info">
+          <h4>Monthly Meeting — Postal History of the Ohio River</h4>
+          <p>Member presentation by Tom Whittaker, followed by member-to-member trading.</p>
+        </div>
+        <div class="event-time">6:30 PM<br><span style="font-size:0.8rem;">Newburgh Kiwanis</span></div>
+      </div>
+
+To help out a little more I divided the card even further so its more readable by human eyes.
+
+# EVANSPEX
+This is the page for the EVANSPEX show, It is just the singular card, This is another thing i made more readable by seperating it out so its not just a chunk of pure code.
+# Join
+This is the page where all the contact information is stored, easily accessible for all who visit!
