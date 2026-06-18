@@ -328,6 +328,11 @@ body {
   .stamp-3 .stamp-inner { background: var(--gold); color: var(--navy-dark); }
   .stamp-4 { bottom: 8%; right: 8%; width: 32%; height: 36%; transform: rotate(-4deg); }
   .stamp-4 .stamp-inner { background: #2d5a3d; color: var(--cream); }
+  .stamp-inner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
   /* ---- Cards ---- */
   .cards {
